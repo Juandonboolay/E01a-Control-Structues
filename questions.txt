@@ -1,16 +1,16 @@
-Open main1.py. Before running it, what do you expect this program to do? 
+Open main1.py. Before running it, what do you expect this program to do? Pull up the License I just edited.
 
-Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. I entered purple as my favorite color and a line populated the screen showing this projects file location
 
-What do you think the program did with what you typed?
+What do you think the program did with what you typed? I think it saved my answer in the file
 
 
 
-Open main2.py. Before running it, describe how this is different than main1.py. 
+Open main2.py. Before running it, describe how this is different than main1.py. There is a Color= line now
 
-What do you think the color = input() will do? 
+What do you think the color = input() will do? Allow me to type in different colors 
 
-Run the program in the terminal and answer the question. Did the program do what you expected?
+Run the program in the terminal and answer the question. Did the program do what you expected? NOT EVEN CLOSE
 
 
 
