@@ -14,65 +14,65 @@ Run the program in the terminal and answer the question. Did the program do what
 
 
 
-Open main3.py. Before running it, describe how this is different than main2.py. 
+Open main3.py. Before running it, describe how this is different than main2.py. There are three extra lines with one claiming red is the correct answer to the previous question
 
-What is happening on lines 11–14? 
+What is happening on lines 11–14? The code is telling you if you type red you will be correct but if input any other color choice you be told to try again
 
-Why are lines 12 and 14 indented? 
+Why are lines 12 and 14 indented? I think it is a way to display results. If you want a certain answer you would need to indent before inputing your choice, so it sort of acts like an answer to your input
 
-Run the program and answer the question. What happens if you don’t capitalize Red? 
+Run the program and answer the question. What happens if you don’t capitalize Red? Sorry, try again populates the line 
 
-What does this tell you about "color"?
-
-
-
-Open main4.py. Before running it, describe how this is different than main2.py. 
-
-What problem is this trying to solve? 
-
-Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+What does this tell you about "color"? The first letter must be capitalized in order to properly answer the prompt
 
 
 
-Open main5.py. What do you expect line 11 to do? 
+Open main4.py. Before running it, describe how this is different than main2.py. It now gives the proper answers to the prompt and shows if you type "Red" you will be correct but if you type "red" you will be asked to try again
 
-What problem is it trying to solve? 
+What problem is this trying to solve? I think it's trying to tell me user input needs to be exact to ensure the desired results 
 
-Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
-
-
-Open main6.py. How is line 11 different than main5.py? 
-
-What would you guess .strip() is doing? 
-
-Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)? Sorry, try again populates the line once again
 
 
 
-Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
+Open main5.py. What do you expect line 11 to do? Now if you type red in all lower case it will populate as being correct
 
-What is the purpose of line 11? 
+What problem is it trying to solve? This looks to solve the problem of the previous lines where although "red" technically is correct, a lower case "r" would be incorrect 
 
-Run the program and answer the question.
-
-
-
-Open main8.py. What is the purpose of line 11? 
-
-Why are lines 12–19 indented? 
-
-Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
-Make that change and run the program again. To end any Python program, you can type ctrl-c.
+Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)? Sorry, try again strikes once again. I think this is because the previous lines of code didn't account for a space before the answer
 
 
 
-Open main9.py. What is happening on line 12? 
+Open main6.py. How is line 11 different than main5.py? There is now a ".strip()" in line 11  
 
-What is the purpose of “count”? 
+What would you guess .strip() is doing? My guess would be that it is stripping something from line 11 such as the spaces  
 
-What is happening on line 22? 
+Run the program and answer the question. Is there another way of writing “red” that will break this logic? I put a space and typed red! and that came back as sorry try again, so punctuation seems to ruin the intended result
+
+
+
+Open main7.py. Before running this program, how do you expect this to be different than main6.py? There are now two answers to the promt, red and pink  
+
+What is the purpose of line 11? To show the two choices can be in lower case with spaces before and/or after 
+
+Run the program and answer the question. 
+
+
+
+Open main8.py. What is the purpose of line 11? I think it's either showing the desired answer again or it's the first line that populates in the terminal 
+
+Why are lines 12–19 indented? These are indented because these are the possible answers to the prompt 
+
+Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? I think it would ruin the current code and no answer would be correct. (After I switched lines it came back with a SyntaxError)  
+
+Make that change and run the program again. To end any Python program, you can type ctrl-c. 
+
+
+
+Open main9.py. What is happening on line 12? I think it is setting up the string of possible answers  
+
+What is the purpose of “count”? To show how many times it took the user to answer the question correctly 
+
+What is happening on line 22? This will display your amount of attempts before answering correctly. It also isn't indented and it is linked to line 12
 
 Run the program.
 
@@ -81,4 +81,4 @@ Run the program.
 
 Commit your changes and push them back to the repository. 
 
-Did you do the extra credit?
+Did you do the extra credit? Yes, I filled it out to the best of my ability with my very limited knowledge
